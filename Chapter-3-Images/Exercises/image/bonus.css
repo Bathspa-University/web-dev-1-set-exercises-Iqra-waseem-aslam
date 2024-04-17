@@ -1,0 +1,23 @@
+/* Styling for specific div elements */
+
+div#A {
+    background-color: #ff7f0e; /* orange */
+    color: #fff; /* white */
+  }
+  
+  div#B {
+    background-color: #1f77b4; /* blue */
+    color: #fff; /* white */
+  }
+  
+  div#C {
+    background-color: #2ca02c; /* green */
+    color: #fff; /* white */
+  }
+  
+  div#D {
+    background-color: #d62728; /* red */
+    color: #fff; /* white */
+  }
+  
+    

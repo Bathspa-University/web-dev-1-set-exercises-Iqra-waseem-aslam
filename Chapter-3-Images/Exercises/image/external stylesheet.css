@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.image-container {
+    margin: 20px;
+    display: inline-block;
+}
+
+.filtered-image {
+    filter: grayscale(50%);
+    transition: filter 0.5s ease;
+}
+
+.filtered-image:hover {
+    filter: none;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+}
+/* CSS styles for the image */
+.image-container {
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 200%; /* Ensure images don't exceed their container */
+    height: auto; /* Retain original aspect ratio */
+}
+
+/* Apply hue-rotate filter to change the color */
+img:hover {
+    filter: hue-rotate(90deg); /* Rotate the hue by 90 degrees */
+}

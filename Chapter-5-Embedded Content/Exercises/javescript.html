@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Document</title>
+</head>
+<body>
+const soundboard = document.getElementById('soundboard');
+
+ Array of sample names and file paths
+const samples = [
+    { name: 'Jurassic Park', path: 'Audio Sampler/jurassic_park.mp3' },
+    { name: 'Back of the net', path: 'Audio Sampler/back_of_the_net.mp3' },
+    { name: 'Cashback', path: 'Audio Sampler/cashback.mp3' },
+    // Add more samples here as needed
+]
+
+Function to create audio elements for each sample
+function createSample(sample) {
+    const audio = new Audio(sample.path);
+    const sampleElement = document.createElement('div');
+    sampleElement.classList.add('sample');
+    sampleElement.textContent = sample.name;
+
+ Play audio when sample is clicked
+    sampleElement.addEventListener('click', () => {
+        audio.currentTime = 0;
+        audio.play();
+    })
+
+    return sampleElement;
+}
+
+Create and append sample elements to the soundboard
+samples.forEach(sample => {
+    const sampleElement = createSample(sample);
+    soundboard.appendChild(sampleElement);
+})
+</body>
+</html>
+

@@ -1,0 +1,98 @@
+*{
+  margin: 1;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: outfit;
+  text-align: center;
+}
+
+ul,
+ol{
+    padding-left: 0%;
+}
+
+body {
+    background-color: rgb(207, 171, 138);
+    text-align: center;
+}
+
+h1,
+h2 {
+    font-family: youngserif;
+    color:rgb(57, 47, 5);
+    letter-spacing: 0.05rem;
+    text-align: center;
+
+}
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+{
+   background
+ }
+
+
+p,
+li {
+    line-height: 1.6;
+    color:rgb(32, 17, 1)
+}
+
+li {
+    margin-top: 0.5rem
+}
+
+ /* container holding the and the text */
+.container {
+    position: relative;
+    text-align: left;
+    color:rgba(50, 31, 3, 0.751);
+}
+
+/* Bottom left text */
+.top-left [
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.background{
+    min-height: 100vh;
+    display:flex ;
+    justify-content:center;
+    align-items: centre;
+    position: relative;
+}
+.background::before {
+    content:'';
+    background-image: url(..image/pancake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    opacity: 0.35;
+}
+h1{
+    font-size: 80px ;
+    font-family: sans-serif;
+    text-align:center;
+    position: relative;
+}
+
+
+
+
+
+
